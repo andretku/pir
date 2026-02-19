@@ -1,0 +1,201 @@
+{
+  "header": {
+    "services": "Services",
+    "about": "About",
+    "contact": "Contact",
+    "menu": "Open menu",
+    "selectLanguage": "Select language",
+    "language": "Change language to"
+  },
+  "welcome": {
+    "title": "Welcome to PIR company website",
+    "description": "It is no coincidence that you found yourself on the website of a company that cares about the security of its clients. We are a team of professionals with extensive experience. We act effectively and quickly, which is confirmed by the satisfaction and satisfaction of clients with our products and services.",
+    "readMore": "read more"
+  },
+  "services": {
+    "title": "Services",
+    "items": {
+      "security": {
+        "title": "SECURITY SYSTEMS",
+        "description": "Access control systems, intrusion and robbery alarm systems, and industrial television are responsible for increasing the security of facilities in terms of protecting people and property. These systems ensure that unauthorized persons cannot enter prohibited areas. These systems prevent, inform and supervise facilities. They enable rapid intervention of facility protection at the indicated location.",
+        "link": "Security systems"
+      },
+      "fire": {
+        "title": "FIRE AND WARNING SYSTEMS",
+        "description": "Fire warning systems and sound warning systems watch over fire protection of people in office buildings and public buildings. The fire system informs the building management about the occurrence of a threat, while DSO transmits an evacuation message to people in the facility.",
+        "link": "Fire and warning systems"
+      },
+      "bms": {
+        "title": "BMS - BUILDING MANAGEMENT SYSTEM",
+        "description": "BMS systems serve to optimize service and increase control over the quality of the entire facility infrastructure. The main advantage of these systems is reducing costs while increasing monitoring of all subsystems. This translates into comfort of staying in a given facility.",
+        "link": "BMS"
+      },
+      "telecom": {
+        "title": "TELECOMMUNICATION SYSTEMS",
+        "description": "Telecommunication systems are the remaining systems that have not been previously classified. These include, among others, intercom installations, video-intercom, intercom, radio and television installations, wireless communication systems, data transmission networks, computer networks and other systems that were created for the proper functioning of the building.",
+        "link": "Telecommunication systems"
+      },
+      "produkty": {
+        "title": "PRODUCTS",
+        "description": "Listening to our clients' voice, we don't stop at ready-made solutions. Our company creates applications supporting various security systems depending on the Client's needs.",
+        "link": "Products"
+      }
+    }
+  },
+  "partners": {
+    "title": "Cooperation",
+    "subtitle": "Our trusted partners"
+  },
+  "about": {
+    "title": "About",
+    "content": "PIR company provides assistance in the field of electronic security systems and fire protection. We carry out orders starting from the project itself, through the selection of appropriate devices, system installation and service of the offered telecommunication infrastructure. We focus on continuous development of our employees, which directly affects the high quality of services we provide. We approach each client individually to fully meet their requirements and adapt the offer to their needs. We are unbeatable in our industry, thanks to promoting innovative solutions and professional customer service.",
+    "closing": "Take care of your safety and that of your immediate surroundings."
+  },
+  "contact": {
+    "title": "Contact",
+    "phone": "22 280 93 00",
+    "email": "biuro@pir.com.pl",
+    "address": "ul. Stępińska 22/30, 00-739 Warszawa",
+    "copied": "Copied"
+  },
+  "footer": {
+    "copyright": "2015-{currentYear} Copyright © PiR",
+    "company": "PIR Sp. z o.o.",
+    "address": "ul. Stępińska 22/30, 00-739 Warszawa",
+    "phone": "tel: 22 280 93 00",
+    "email": "e-mail: biuro@pir.com.pl",
+    "privacyPolicy": "Privacy Policy"
+  },
+  "notFound": {
+    "title": "404",
+    "message": "Oops! Page not found",
+    "link": "Return to Home"
+  },
+  "servicePages": {
+    "security": {
+      "title": "SECURITY SYSTEMS SKD, SSWiN and CCTV",
+      "intro": "The following systems are responsible for facility security:",
+      "systems": [
+        "SKD – access control system,",
+        "SSWiN – intrusion and robbery alarm system,",
+        "CCTV – surveillance television system;"
+      ],
+      "description": "PIR company in this field deals with design, modernization, service and installation of the above-mentioned systems. We offer warranty and post-warranty service.",
+      "audit": "For the client's needs, we also perform security system audits and independent system reviews performed cyclically before the system warranty expires. Thanks to information obtained from the audit or review, the client receives a protocol showing the current state of the system and recommendations for eliminating security gaps in their system.",
+      "manufacturers": "Our offer includes systems from leading manufacturers such as:",
+      "manufacturersList": [
+        "UTC Fire&Security,",
+        "Software House,",
+        "AMAG,",
+        "Kantech,",
+        "Samsung,",
+        "DSC,",
+        "Satel,",
+        "NOVUS,",
+        "BOSCH,",
+        "Roger;"
+      ],
+      "enterprise": "We also provide comprehensive security system services from the \"enterprise\" series. We specialize in global access control from the CASI-RUSCO palette, manufactured by UTC Fire&Security.",
+      "closing": "We are able to select the appropriate security system to meet the client's requirements. In case of client preferences for products from other companies, we are able to meet the challenge."
+    },
+    "fire": {
+      "title": "Fire and warning systems",
+      "intro": "The following systems are responsible for fire safety and evacuation of people in facilities:",
+      "systems": [
+        "SSP – Fire Alarm System,",
+        "DSO – Sound Warning System."
+      ],
+      "description": "PIR company in this field designs, installs, modernizes and services the above-mentioned systems. We offer warranty and post-warranty service.",
+      "audit": "For the client's needs, we also perform fire and warning system audits and independent system reviews before the warranty expires. Thanks to information obtained from the audit or review, the client receives a protocol on the system status and recommendations for eliminating security gaps in their system.",
+      "manufacturers": "Our offer includes systems from leading manufacturers such as:",
+      "manufacturersList": [
+        "UTC Fire&Security,",
+        "Esser,",
+        "Bosch,",
+        "Siemens.",
+        "Honeywell,"
+      ],
+      "closing": "We are able to select the appropriate security system to meet the client's requirements. In case of client preferences for products from other companies, we are able to meet the challenge."
+    },
+    "bms": {
+      "title": "BMS - BUILDING MANAGEMENT SYSTEM",
+      "intro": "Building automation system (BMS system) allows integration of all systems controlling the technical functions of the building into one whole, in order to fully control the security and proper functioning of the entire building infrastructure.",
+      "systems": "BMS enables visualization and management of systems such as:",
+      "systemsList": [
+        "heating and air conditioning control,",
+        "lighting installations,",
+        "UPS power monitoring,",
+        "access control system,",
+        "telecommunications network,",
+        "fire protection system,",
+        "monitoring and alarm system;"
+      ],
+      "benefits": "Thanks to such a solution, operating costs can be minimized and employees can be guaranteed comfort and convenience at work.",
+      "description": "PIR company in this field designs, installs, modernizes and services the above-mentioned systems. We offer warranty and post-warranty service.",
+      "audit": "For the client's needs, we also perform BMS system audits and independent system reviews before the system warranty expires. Thanks to information obtained from the audit or review, the client receives a protocol on the system status and recommendations for eliminating security gaps in their system.",
+      "manufacturers": "Our offer includes systems from leading manufacturers such as:",
+      "manufacturersList": [
+        "Honeywell,",
+        "GC5 - NiagaraAX Framework®,",
+        "Delta Controls,",
+        "Siemens."
+      ],
+      "closing": "We are able to select the appropriate security system to meet the client's requirements. In case of client preferences for products from other companies, we are able to meet the challenge."
+    },
+    "telecom": {
+      "title": "TELECOMMUNICATION SYSTEMS",
+      "intro": "Telecommunication systems that we offer in our product range, in addition to previously classified security systems, also include other systems such as:",
+      "systems": [
+        "SAIK – automatic key identification system,",
+        "SI – intercom systems,",
+        "SP – parking systems,",
+        "SD – intercom systems,",
+        "LAN – structured cabling,",
+        "SAT/RTV – satellite and television systems,",
+        "EL – electrical power supply and lighting,",
+        "etc."
+      ],
+      "description": "PIR company in this field designs, installs, modernizes and services the above-mentioned systems. We offer warranty and post-warranty service.",
+      "audit": "For the client's needs, we also perform audits of the above-mentioned systems and independent system reviews before the warranty expires. Thanks to information obtained from the audit or review, the client receives a protocol on the system status and recommendations for eliminating gaps in their system.",
+      "manufacturers": "Our offer includes systems from leading manufacturers such as:",
+      "manufacturersList": [
+        "CAME,",
+        "NICE,",
+        "FAAC,",
+        "CamSat,",
+        "Urmet,",
+        "Comax,",
+        "bt electronics,",
+        "LEGRAND,",
+        "Moeller Electric,",
+        "Hager,",
+        "Berker."
+      ],
+      "closing": "We select the appropriate system to meet the client's requirements. In case of client preferences for products from other companies, we are able to meet the challenge."
+    },
+    "produkty": {
+      "title": "PRODUCTS",
+      "intro": "Listening to our clients' voice, we don't stop at ready-made solutions.",
+      "description": "Our company creates applications supporting various security systems depending on the Client's needs.",
+      "applications": "Our applications include:",
+      "applicationsList": [
+        "applications for detailed reporting from SKD systems,",
+        "applications supporting HSE departments,",
+        "applications for time registration and attendance systems,",
+        "application for \"Guest\" service;"
+      ],
+      "modules": "Our company also creates modules and systems supporting existing systems, supplementing them with additional functions depending on the Client's needs.",
+      "modulesExample": "Our offered modules include, among others, UUC1 – time control module (1 input, 2 outputs – immediate output/time output, possibility to add a catalog card appearing like certificates).",
+      "closing": "We will take care of creating individual applications and modules adapted to your needs, present you with their cost estimate and provide full service."
+    }
+  },
+  "privacyPolicy": {
+    "title": "Privacy Policy",
+    "sections": {
+      "section1": {
+        "title": "1. Who processes your data?",
+        "content": "The administrator of your personal data is PIR Sp. z o.o. with its registered office at 00-739 Warsaw, ul. Stępińska 22/30. You can contact us at: biuro@pir.com.pl"
+      }
+    }
+  }
+}

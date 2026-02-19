@@ -1,0 +1,201 @@
+{
+  "header": {
+    "services": "Zakres usług",
+    "about": "O nas",
+    "contact": "Kontakt",
+    "menu": "Otwórz menu",
+    "selectLanguage": "Wybierz język",
+    "language": "Zmień język na"
+  },
+  "welcome": {
+    "title": "Witamy na stronie internetowej firmy PIR",
+    "description": "To nie jest przypadek, że znalazłeś się na stronie internetowej firmy, która dba o bezpieczeństwo swoich klientów. Jesteśmy zespołem, który tworzą profesjonaliści z długoletnim doświadczeniem. Działamy skutecznie i błyskawicznie, czego potwierdzeniem jest zadowolenie i satysfakcja klientów z naszych produktów i usług.",
+    "readMore": "czytaj więcej"
+  },
+  "services": {
+    "title": "Zakres usług",
+    "items": {
+      "security": {
+        "title": "SYSTEMY BEZPIECZEŃSTWA",
+        "description": "Za zwiększenie bezpieczeństwa obiektów pod względem ochrony osób i mienia odpowiedzialne są systemy kontroli dostępu, sygnalizacji włamania i napadu oraz telewizji przemysłowej. Te systemy sprawują pieczę nad uniemożliwieniem wtargnięcia osób niepowołanych do miejsc niedozwolonych. To te systemy zapobiegają, informują i nadzorują obiekty. Umożliwiają szybką interwencję ochrony obiektu we wskazanym miejscu.",
+        "link": "Systemy bezpieczeństwa"
+      },
+      "fire": {
+        "title": "SYSTEMY POŻAROWE I OSTRZEGAWCZE",
+        "description": "Nad ochroną pożarową ludzi w budynkach biurowych i użyteczności publicznej czuwają systemy ostrzegawcze przeciwpożarowe oraz dźwiękowe systemy ostrzegawcze. System p.poż. informuje obsługę budynku o powstaniu zagrożenia, natomiast DSO przekazuje komunikat o ewakuacji do osób przebywających w obiekcie.",
+        "link": "Systemy pożarowe i ostrzegawcze"
+      },
+      "bms": {
+        "title": "BMS - SYSTEM ZARZĄDZANIA BUDYNKIEM",
+        "description": "Do optymalizacji obsługi oraz zwiększenia kontroli nad jakością całej infrastruktury obiektów służą systemy BMS. Główną zaletą tych systemów jest zmniejszenie kosztów przy jednoczesnym zwiększeniu monitorowania wszystkich podsystemów. To przedkłada się na komfort przebywania w danym obiekcie.",
+        "link": "BMS"
+      },
+      "telecom": {
+        "title": "SYSTEMY TELETECHNICZNE",
+        "description": "Systemy teletechniczne to pozostałe systemy, które nie zostały wcześniej sklasyfikowane. Zaliczają się do nich między innymi instalacje domofonowe, video-domofonowe , interkomowe, instalacje radio i telewizja, system komunikacji bezprzewodowej, sieć transmisji danych, sieci komputerowe oraz pozostałe systemy, które zostały stworzone na potrzeby prawidłowego funkcjonowania budynku.",
+        "link": "Systemy teletechniczne"
+      },
+      "produkty": {
+        "title": "PRODUKTY",
+        "description": "Słuchając głosu naszych klientów, nie poprzestajemy na gotowych rozwiązaniach. Nasza firma tworzy aplikacje wspomagające różne systemy zabezpieczeń w zależności od potrzeb Klienta.",
+        "link": "Produkty"
+      }
+    }
+  },
+  "partners": {
+    "title": "Współpraca",
+    "subtitle": "Nasi zaufani partnerzy"
+  },
+  "about": {
+    "title": "O nas",
+    "content": "Firma PIR służy pomocą w obszarze elektronicznych systemów zabezpieczeń i ochrony przeciwpożarowej. Zlecenia realizujemy począwszy od samego projektu, przez dobór odpowiednich urządzeń, instalację systemu oraz serwis oferowanej infrastruktury teletechnicznej. Stawiamy na nieustanny rozwój naszych pracowników, co bezpośrednio wpływa na wysoką jakość świadczonych przez nas usług. Indywidualnie podchodzimy do każdego klienta, aby w pełni sprostać jego wymaganiom i dostosować ofertę odpowiednio do jego potrzeb. Jesteśmy bezkonkurencyjni w naszej branży, dzięki promowaniu innowacyjnych rozwiązań i profesjonalnej obsłudze klienta.",
+    "closing": "Zadbaj o bezpieczeństwo swoje i Twojego najbliższego otoczenia."
+  },
+  "contact": {
+    "title": "Kontakt",
+    "phone": "22 280 93 00",
+    "email": "biuro@pir.com.pl",
+    "address": "ul. Stępińska 22/30, 00-739 Warszawa",
+    "copied": "Skopiowano"
+  },
+  "footer": {
+    "copyright": "2015-{currentYear} Copyright © PiR",
+    "company": "PIR Sp. z o.o.",
+    "address": "ul. Stępińska 22/30, 00-739 Warszawa",
+    "phone": "tel: 22 280 93 00",
+    "email": "e-mail: biuro@pir.com.pl",
+    "privacyPolicy": "Polityka prywatności"
+  },
+  "notFound": {
+    "title": "404",
+    "message": "Ups! Strona nie znaleziona",
+    "link": "Powrót do strony głównej"
+  },
+  "servicePages": {
+    "security": {
+      "title": "SYSTEMY BEZPIECZEŃSTWA SKD, SSWiN oraz CCTV",
+      "intro": "Za bezpieczeństwo obiektów odpowiadają następujące systemy:",
+      "systems": [
+        "SKD – system kontroli dostępu,",
+        "SSWiN – system sygnalizacji włamania i napadu,",
+        "CCTV – system telewizji dozorowej;"
+      ],
+      "description": "Firma PIR w tej dziedzinie zajmuje się projektowaniem, modernizowaniem, serwisowaniem i wykonywaniem instalacji wyżej wymienionych systemów. Oferujemy serwis gwarancyjny, jaki i pogwarancyjny.",
+      "audit": "Na potrzeby klienta wykonujemy również audyt systemów bezpieczeństwa oraz niezależne przeglądy systemów wykonywanie cyklicznie przed upływem gwarancji systemu. Dzięki informacjom uzyskanym z audytu bądź przeglądu, klient otrzymuje protokół przedstawiający aktualny stan systemu oraz zalecenia dotyczące wyeliminowania luk bezpieczeństwa w swoim systemie.",
+      "manufacturers": "W naszej ofercie znajdują się systemy wiodących producentów takich jak:",
+      "manufacturersList": [
+        "UTC Fire&Security,",
+        "Software House,",
+        "AMAG,",
+        "Kantech,",
+        "Samsung,",
+        "DSC,",
+        "Satel,",
+        "NOVUS,",
+        "BOSCH,",
+        "Roger;"
+      ],
+      "enterprise": "Wykonujemy również kompleksowe usługi systemów bezpieczeństwa z serii \"enterprise\". Specjalizujemy się w globalnej kontroli dostępu z palety CASI-RUSCO, której producentem jest UTC Fire&Security.",
+      "closing": "Jesteśmy w stanie dobrać odpowiedni system bezpieczeństwa do wymagań klienta. W przypadku preferencji klienta do produktów innych firm jesteśmy w stanie sprostać wyzwaniu."
+    },
+    "fire": {
+      "title": "Systemy pożarowe i ostrzegawcze",
+      "intro": "Za bezpieczeństwo pożarowe oraz ewakuację osób w obiektach odpowiadają następujące systemy:",
+      "systems": [
+        "SSP – System Sygnalizacji Pożaru,",
+        "DSO – Dźwiękowy System Ostrzegawczy."
+      ],
+      "description": "Firma PIR w tej dziedzinie projektuje, wykonuje, modernizuje i serwisuje wyżej wymienione systemy. Oferujemy serwis gwarancyjny jak i pogwarancyjny.",
+      "audit": "Na potrzeby klienta wykonujemy również audyt systemów pożarowych i ostrzegawczych oraz niezależne przeglądy systemów przed upływem gwarancji. Dzięki informacjom uzyskanym z audytu bądź przeglądu, klient otrzymuje protokół o stanie systemu oraz zalecenia dotyczące wyeliminowania luk bezpieczeństwa w swoim systemie.",
+      "manufacturers": "W naszej ofercie znajdują się systemy wiodących producentów takich jak:",
+      "manufacturersList": [
+        "UTC Fire&Security,",
+        "Esser,",
+        "Bosch,",
+        "Siemens.",
+        "Honeywell,"
+      ],
+      "closing": "Jesteśmy w stanie dobrać odpowiedni system bezpieczeństwa do wymagań klienta. W przypadku preferencji klienta do produktów innych firm, jesteśmy w stanie sprostać wyzwaniu."
+    },
+    "bms": {
+      "title": "BMS - SYSTEM ZARZĄDZANIA BUDYNKIEM",
+      "intro": "System automatyki budynkowej (system BMS) pozwala na zintegrowanie wszystkich systemów sterowania funkcjami technicznymi budynku w jedną całość, aby móc w pełni sprawować kontrolę nad bezpieczeństwem i prawidłowym funkcjonowaniem całej infrastruktury budynku.",
+      "systems": "BMS umożliwia wizualizację i zarządzanie systemami takimi jak:",
+      "systemsList": [
+        "sterowanie ogrzewaniem i klimatyzacją,",
+        "instalacje oświetleniowe,",
+        "monitorowanie zasilania UPS,",
+        "system kontroli dostępu,",
+        "sieć teleinformatyczna,",
+        "system przeciwpożarowy,",
+        "monitoring i system alarmowy;"
+      ],
+      "benefits": "Dzięki takiemu rozwiązaniu koszty eksploatacji można zmniejszyć do minimum oraz zagwarantować pracownikom wygodę i komfort pracy.",
+      "description": "Firma PIR w tej dziedzinie projektuje, wykonuje, modernizuje i serwisuje wyżej wymienione systemy. Oferujemy serwis gwarancyjny jak i pogwarancyjny.",
+      "audit": "Na potrzeby klienta wykonujemy również audyt systemów BMS oraz niezależne przeglądy systemów przed upływem gwarancji systemu. Dzięki informacjom uzyskanym z audytu bądź przeglądu, klient otrzymuje protokół o stanie systemu oraz zalecenia dotyczące wyeliminowania luk bezpieczeństwa w swoim systemie.",
+      "manufacturers": "W naszej ofercie znajdują się systemy wiodących producentów takich jak:",
+      "manufacturersList": [
+        "Honeywell,",
+        "GC5 - NiagaraAX Framework®,",
+        "Delta Controls,",
+        "Siemens."
+      ],
+      "closing": "Jesteśmy w stanie dobrać odpowiedni system bezpieczeństwa do wymagań klienta. W przypadku preferencji klienta do produktów innych firm jesteśmy w stanie sprostać wyzwaniu."
+    },
+    "telecom": {
+      "title": "SYSTEMY TELETECHNICZNE",
+      "intro": "Do systemów teletechnicznych, które oferujemy w naszej gamie produktów, oprócz wcześniej sklasyfikowanych systemów bezpieczeństwa zaliczają się również pozostałe systemy, takie jak:",
+      "systems": [
+        "SAIK – system automatycznej identyfikacji kluczy,",
+        "SI – system interkomowe,",
+        "SP – systemy parkingowe,",
+        "SD – system domofonowe,",
+        "LAN – okablowanie strukturalne,",
+        "SAT/RTV – systemy satelitarne i telewizyjne,",
+        "EL – zasilanie elektryczne i oświetlenie,",
+        "itd."
+      ],
+      "description": "Firma PIR w tej dziedzinie projektuje, wykonuje, modernizuje i serwisuje wyżej wymienione systemy. Oferujemy serwis gwarancyjny jak i pogwarancyjny.",
+      "audit": "Na potrzeby klienta wykonujemy również audyt wyżej wymienionych systemów oraz niezależne przeglądy systemów przed upływem gwarancji. Dzięki informacjom uzyskanym z audytu bądź przeglądu, klient otrzymuje protokół o stanie systemu oraz zalecenia dotyczące wyeliminowania luk w swoim systemie.",
+      "manufacturers": "W naszej ofercie znajdują się systemy wiodących producentów takich jak:",
+      "manufacturersList": [
+        "CAME,",
+        "NICE,",
+        "FAAC,",
+        "CamSat,",
+        "Urmet,",
+        "Comax,",
+        "bt electronics,",
+        "LEGRAND,",
+        "Moeller Electric,",
+        "Hager,",
+        "Berker."
+      ],
+      "closing": "Dobieramy odpowiedni system do wymagań klienta. W przypadku preferencji klienta do produktów innych firm jesteśmy w stanie sprostać wyzwaniu."
+    },
+    "produkty": {
+      "title": "PRODUKTY",
+      "intro": "Słuchając głosu naszych klientów, nie poprzestajemy na gotowych rozwiązaniach.",
+      "description": "Nasza firma tworzy aplikacje wspomagające różne systemy zabezpieczeń w zależności od potrzeb Klienta.",
+      "applications": "Nasze aplikacje to między innymi:",
+      "applicationsList": [
+        "aplikacje do szczegółowego raportowania z systemów SKD,",
+        "aplikacje wspomagające działy BHP,",
+        "aplikacje do systemów rejestracji i ewidencji czasu pracy,",
+        "aplikacja do obsługi „Gościa\";"
+      ],
+      "modules": "Nasza firma tworzy również moduły i układy wspomagające istniejące systemy, uzupełniając je o dodatkowe funkcje w zależności od potrzeb Klienta.",
+      "modulesExample": "Oferowane przez nas moduły to między innymi UUC1 – moduł sterowania czasowego (1 wejścia, 2 wyjścia – wyjście natychmiastowe/wyjście czasowe, możliwość dodania karty katalogowej pojawiającej się jak certyfikaty).",
+      "closing": "Zajmiemy się stworzeniem indywidualnych aplikacji i modułów przystosowanych do Twoich potrzeb, przedstawimy Ci ich kosztorys oraz zapewnimy pełen serwis."
+    }
+  },
+  "privacyPolicy": {
+    "title": "Polityka prywatności",
+    "sections": {
+      "section1": {
+        "title": "1. Kto przetwarza Twoje dane?",
+        "content": "Administratorem Twoich danych osobowych jest PIR Sp. z o.o. z siedzibą w 00-739 Warszawa, ul. Stępińska 22/30. Możesz się z nami skontaktować pod adresem e-mail: biuro@pir.com.pl"
+      }
+    }
+  }
+}

@@ -1,0 +1,146 @@
+/* ===== КАТЕГОРИЯ: ЦВЕТОВАЯ ПАЛИТРА ===== */
+
+@layer base {
+  :root {
+    /* === Базовые цвета палитры === */
+    --color-base-white: #FFFFFF;
+    --color-base-dark: #181B23;
+    --color-base-primary: #e30016;
+    --color-base-primary-dark: #ff4d5c;
+    --color-base-accent: #e30016;
+    --color-base-light: #F2F2F2;
+    --color-base-success: #72A663;
+    --color-base-warning: #D9A13B;
+    --color-base-destructive: #e30016;
+
+    /* === Оттенки для светлого режима === */
+    --color-base-dark-10: #b6b6b7;
+    --color-base-dark-60: #525255;
+
+    /* === Оттенки для темного режима === */
+    --color-base-white-95: #D9D9D9;
+    --color-base-white-85: #D9D9D9;
+    --color-base-white-65: #A6A6A6;
+    --color-base-white-25: #3F4247;
+    --color-base-white-20: #353A42;
+    --color-base-white-18: #2D3239;
+    --color-base-white-15: #252A32;
+    --color-base-white-12: #1E2128;
+    --color-base-white-8: #14171D;
+
+    /* === Основные цвета === */
+    --color-background: var(--color-base-white);
+    --color-foreground: var(--color-base-dark);
+
+    /* === Карточки === */
+    --color-card: var(--color-base-light);
+    --color-card-foreground: var(--color-base-dark);
+
+    /* === Popover === */
+    --color-popover: var(--color-base-light);
+    --color-popover-foreground: var(--color-base-dark);
+
+    /* === Primary === */
+    --color-primary: var(--color-base-primary);
+    --color-primary-foreground: var(--color-base-white);
+
+    /* === Secondary === */
+    --color-secondary: var(--color-base-light);
+    --color-secondary-foreground: var(--color-base-dark);
+
+    /* === Muted === */
+    --color-muted: var(--color-base-light);
+    --color-muted-foreground: var(--color-base-dark-60);
+
+    /* === Accent === */
+    --color-accent: var(--color-base-accent);
+    --color-accent-foreground: var(--color-base-white);
+
+    /* === Destructive === */
+    --color-destructive: var(--color-base-destructive);
+    --color-destructive-foreground: var(--color-base-white);
+
+    /* === Границы и инпуты === */
+    --color-border: var(--color-base-dark-10);
+    --color-input: var(--color-base-light);
+    --color-ring: var(--color-base-primary);
+
+    /* === Sidebar === */
+    --color-sidebar-background: var(--color-base-light);
+    --color-sidebar-foreground: var(--color-base-dark);
+    --color-sidebar-primary: var(--color-base-primary);
+    --color-sidebar-primary-foreground: var(--color-base-white);
+    --color-sidebar-accent: var(--color-base-light);
+    --color-sidebar-accent-foreground: var(--color-base-dark);
+    --color-sidebar-border: var(--color-base-dark-10);
+    --color-sidebar-ring: var(--color-base-primary);
+
+    /* === Градиенты === */
+    --gradient-welcome: linear-gradient(135deg, rgba(227, 0, 22, 0.1), rgba(227, 0, 22, 0.05));
+    --gradient-page-background: #FFFFFF;
+
+    /* === Карточки услуг === */
+    --color-service-card-bg: #F2F2F2;
+    --color-service-card-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    --color-service-card-shadow-hover: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    --color-service-card-glow: rgba(227, 0, 22, 0.3);
+  }
+
+  .dark {
+    /* === Основные цвета === */
+    --color-background: var(--color-base-dark);
+    --color-foreground: var(--color-base-white-95);
+
+    /* === Карточки === */
+    --color-card: var(--color-base-white-12);
+    --color-card-foreground: var(--color-base-white-95);
+
+    /* === Popover === */
+    --color-popover: var(--color-base-white-12);
+    --color-popover-foreground: var(--color-base-white-95);
+
+    /* === Primary === */
+    --color-primary: var(--color-base-primary-dark);
+    --color-primary-foreground: var(--color-base-dark);
+
+    /* === Secondary === */
+    --color-secondary: var(--color-base-white-18);
+    --color-secondary-foreground: var(--color-base-white-95);
+
+    /* === Muted === */
+    --color-muted: var(--color-base-white-25);
+    --color-muted-foreground: var(--color-base-white-65);
+
+    /* === Accent === */
+    --color-accent: var(--color-base-primary-dark);
+    --color-accent-foreground: var(--color-base-dark);
+
+    /* === Destructive === */
+    --color-destructive: var(--color-base-destructive);
+    --color-destructive-foreground: var(--color-base-white-95);
+
+    /* === Границы и инпуты === */
+    --color-border: var(--color-base-white-20);
+    --color-input: var(--color-base-white-18);
+    --color-ring: var(--color-base-primary-dark);
+
+    /* === Sidebar === */
+    --color-sidebar-background: var(--color-base-white-8);
+    --color-sidebar-foreground: var(--color-base-white-85);
+    --color-sidebar-primary: var(--color-base-primary-dark);
+    --color-sidebar-primary-foreground: var(--color-base-dark);
+    --color-sidebar-accent: var(--color-base-white-15);
+    --color-sidebar-accent-foreground: var(--color-base-white-95);
+    --color-sidebar-border: var(--color-base-white-18);
+    --color-sidebar-ring: var(--color-base-primary-dark);
+
+    /* === Градиенты === */
+    --gradient-page-background: linear-gradient(135deg, #0b0c0d 0%, #32415c 100%);
+
+    /* === Карточки услуг === */
+    --color-service-card-bg: rgba(255, 255, 255, 0.05);
+    --color-service-card-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    --color-service-card-shadow-hover: 0 10px 15px -3px rgba(0, 0, 0, 0.3), 0 4px 6px -2px rgba(0, 0, 0, 0.2);
+    --color-service-card-glow: rgba(227, 0, 22, 0.3);
+  }
+}

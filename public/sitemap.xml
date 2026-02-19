@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://pir.com.pl/</loc>
+    <lastmod>2026-02-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pir.com.pl/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://pir.com.pl/?lang=en" />
+    <xhtml:link rel="alternate" hreflang="ua" href="https://pir.com.pl/?lang=ua" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pir.com.pl/" />
+  </url>
+  <url>
+    <loc>https://pir.com.pl/o-nas</loc>
+    <lastmod>2026-02-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pir.com.pl/o-nas" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://pir.com.pl/o-nas?lang=en" />
+    <xhtml:link rel="alternate" hreflang="ua" href="https://pir.com.pl/o-nas?lang=ua" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pir.com.pl/o-nas" />
+  </url>
+  <url>
+    <loc>https://pir.com.pl/zakres-uslug</loc>
+    <lastmod>2026-02-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pir.com.pl/zakres-uslug" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://pir.com.pl/zakres-uslug?lang=en" />
+    <xhtml:link rel="alternate" hreflang="ua" href="https://pir.com.pl/zakres-uslug?lang=ua" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pir.com.pl/zakres-uslug" />
+  </url>
+  <url>
+    <loc>https://pir.com.pl/kontakt</loc>
+    <lastmod>2026-02-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pir.com.pl/kontakt" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://pir.com.pl/kontakt?lang=en" />
+    <xhtml:link rel="alternate" hreflang="ua" href="https://pir.com.pl/kontakt?lang=ua" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pir.com.pl/kontakt" />
+  </url>
+  <url>
+    <loc>https://pir.com.pl/systemy-bezpieczenstwa</loc>
+    <lastmod>2026-02-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pir.com.pl/systemy-bezpieczenstwa" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://pir.com.pl/systemy-bezpieczenstwa?lang=en" />
+    <xhtml:link rel="alternate" hreflang="ua" href="https://pir.com.pl/systemy-bezpieczenstwa?lang=ua" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pir.com.pl/systemy-bezpieczenstwa" />
+  </url>
+  <url>
+    <loc>https://pir.com.pl/systemy-pozarowe</loc>
+    <lastmod>2026-02-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pir.com.pl/systemy-pozarowe" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://pir.com.pl/systemy-pozarowe?lang=en" />
+    <xhtml:link rel="alternate" hreflang="ua" href="https://pir.com.pl/systemy-pozarowe?lang=ua" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pir.com.pl/systemy-pozarowe" />
+  </url>
+  <url>
+    <loc>https://pir.com.pl/bms</loc>
+    <lastmod>2026-02-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pir.com.pl/bms" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://pir.com.pl/bms?lang=en" />
+    <xhtml:link rel="alternate" hreflang="ua" href="https://pir.com.pl/bms?lang=ua" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pir.com.pl/bms" />
+  </url>
+  <url>
+    <loc>https://pir.com.pl/systemy-teletechniczne</loc>
+    <lastmod>2026-02-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pir.com.pl/systemy-teletechniczne" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://pir.com.pl/systemy-teletechniczne?lang=en" />
+    <xhtml:link rel="alternate" hreflang="ua" href="https://pir.com.pl/systemy-teletechniczne?lang=ua" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pir.com.pl/systemy-teletechniczne" />
+  </url>
+  <url>
+    <loc>https://pir.com.pl/policy</loc>
+    <lastmod>2026-02-19</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://pir.com.pl/policy" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://pir.com.pl/policy?lang=en" />
+    <xhtml:link rel="alternate" hreflang="ua" href="https://pir.com.pl/policy?lang=ua" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pir.com.pl/policy" />
+  </url>
+</urlset>
