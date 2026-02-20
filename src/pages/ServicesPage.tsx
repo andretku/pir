@@ -4,16 +4,13 @@ import Footer from "@/components/Footer";
 import SEOHead from "@/components/SEOHead";
 import ScrollReveal from "@/components/animations/ScrollReveal";
 import { useTranslation } from "react-i18next";
-import { ComponentTitle } from "@/entities/component-title";
-import StaggerContainer, { StaggerItem } from "@/components/animations/StaggerContainer";
 import { useLocation } from "react-router";
-import { cn } from "@/lib/utils";
+import Services from "@/components/Services";
 
 const ServicesPage = () => {
   const { t } = useTranslation();
   const location = useLocation();
   const [expandedService, setExpandedService] = useState<number | null>(null);
-  const [imageErrors, setImageErrors] = useState<Record<number, boolean>>({});
 
   const services = useMemo(
     () => [
@@ -22,35 +19,30 @@ const ServicesPage = () => {
         title: t("services.items.security.title"),
         description: t("services.items.security.description"),
         image: "/images/services/security.jpg",
-        link: "/systemy-bezpieczenstwa",
       },
       {
         key: "fire",
         title: t("services.items.fire.title"),
         description: t("services.items.fire.description"),
         image: "/images/services/fire.jpg",
-        link: "/systemy-pozarowe",
       },
       {
         key: "bms",
         title: t("services.items.bms.title"),
         description: t("services.items.bms.description"),
         image: "/images/services/bms.jpg",
-        link: "/bms",
       },
       {
         key: "telecom",
         title: t("services.items.telecom.title"),
         description: t("services.items.telecom.description"),
         image: "/images/services/telecom.jpg",
-        link: "/systemy-teletechniczne",
       },
       {
         key: "produkty",
         title: t("services.items.produkty.title"),
         description: t("services.items.produkty.description"),
         image: "/images/services/produkty.jpg",
-        link: "/produkty",
       },
     ],
     [t],
@@ -67,10 +59,6 @@ const ServicesPage = () => {
       }
     }
   }, [location.hash, services]);
-
-  const handleImageError = (index: number) => {
-    setImageErrors((prev) => ({ ...prev, [index]: true }));
-  };
 
   const toggleService = (index: number) => {
     setExpandedService((prev) => (prev === index ? null : index));
@@ -273,58 +261,25 @@ const ServicesPage = () => {
       <div className="page-content">
         <Header />
         <section className="pt-32 pb-20">
-          <div className="container mx-auto px-6 sm:px-12">
-            <ComponentTitle title={t("services.title")} />
+          <Services
+            services={services}
+            onServiceClick={toggleService}
+            expandedService={expandedService}
+            className="pt-0"
+          />
 
-            <StaggerContainer
-              staggerDelay={0.1}
-              className="grid grid-cols-1 sm:grid-cols-2 lg:flex lg:flex-nowrap gap-3 mt-12"
-            >
-              {services.map((service, index) => (
-                <StaggerItem key={index} className="lg:flex-1">
-                  <button
-                    onClick={() => toggleService(index)}
-                    className={cn(
-                      "group block relative overflow-hidden rounded-lg aspect-[4/3] lg:max-w-[300px] lg:max-h-[200px] hover:scale-105 transition-transform duration-300 w-full",
-                      expandedService === index && "ring-2 ring-primary",
-                    )}
-                  >
-                    <div className="relative w-full h-full bg-gradient-to-br from-primary/20 to-accent/20">
-                      {!imageErrors[index] ? (
-                        <img
-                          src={service.image}
-                          alt={service.title}
-                          className="w-full h-full object-cover"
-                          loading="lazy"
-                          onError={() => handleImageError(index)}
-                        />
-                      ) : (
-                        <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-primary/30 to-accent/30" />
-                      )}
-                      <div className="absolute inset-0 bg-black/40 group-hover:bg-black/60 transition-colors duration-300 flex items-center justify-center">
-                        <h3 className="text-white text-lg lg:text-base font-bold text-center px-4 z-10">
-                          {service.title}
-                        </h3>
-                      </div>
-                    </div>
-                  </button>
-                </StaggerItem>
-              ))}
-            </StaggerContainer>
-
-            <ScrollReveal direction="up" delay={0.2}>
-              {expandedService !== null && (
-                <div className="max-w-4xl mx-auto mt-12">
-                  <div className="p-6 rounded-lg bg-card border border-border shadow-sm">
-                    <h3 className="text-2xl font-bold mb-6">
-                      {t(`servicePages.${services[expandedService].key}.title`)}
-                    </h3>
-                    {renderServiceContent(services[expandedService].key)}
-                  </div>
+          <ScrollReveal direction="up" delay={0.2}>
+            {expandedService !== null && (
+              <div className="max-w-4xl mx-auto mt-12">
+                <div className="p-6 rounded-lg bg-card border border-border shadow-sm">
+                  <h3 className="text-2xl font-bold mb-6">
+                    {t(`servicePages.${services[expandedService].key}.title`)}
+                  </h3>
+                  {renderServiceContent(services[expandedService].key)}
                 </div>
-              )}
-            </ScrollReveal>
-          </div>
+              </div>
+            )}
+          </ScrollReveal>
         </section>
       </div>
       <Footer />
