@@ -3,6 +3,29 @@ import react from "@vitejs/plugin-react-swc";
 import path from "path";
 import { componentTagger } from "lovable-tagger";
 
+function spaFallback(): Plugin {
+  return {
+    name: "spa-fallback",
+    configureServer(server) {
+      return () => {
+        server.middlewares.use((req, res, next) => {
+          if (
+            req.url &&
+            !req.url.startsWith("/assets") &&
+            !req.url.startsWith("/images") &&
+            !req.url.startsWith("/@") &&
+            !req.url.includes(".") &&
+            req.method === "GET"
+          ) {
+            req.url = "/index.html";
+          }
+          next();
+        });
+      };
+    },
+  };
+}
+
 function performanceOptimizer(): Plugin {
   return {
     name: "performance-optimizer",
@@ -46,9 +69,12 @@ export default defineConfig(({ mode }) => ({
     host: "::",
     port: 8080,
   },
-  plugins: [react(), mode === "development" && componentTagger(), performanceOptimizer()].filter(
-    Boolean,
-  ),
+  plugins: [
+    react(),
+    spaFallback(),
+    mode === "development" && componentTagger(),
+    performanceOptimizer(),
+  ].filter(Boolean),
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
