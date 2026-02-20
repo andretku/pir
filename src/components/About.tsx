@@ -11,7 +11,7 @@ const About = () => {
         <ComponentTitle title={t("about.title")} subtitle={t("about.subtitle")} />
 
         <ScrollReveal direction="up" delay={0.1}>
-          <div className="max-w-3xl text-base md:text-lg text-muted-foreground leading-relaxed">
+          <div className="max-w-3xl text-base text-muted-foreground leading-relaxed">
             <p className="mb-4">{t("about.intro")}</p>
             <p className="mb-4">{t("about.philosophy")}</p>
             <p>{t("about.closing")}</p>

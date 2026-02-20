@@ -24,10 +24,10 @@ const About = () => {
             <ScrollReveal direction="up" delay={0.1}>
               <div className="max-w-4xl mx-auto mt-12">
                 <div className="prose prose-lg dark:prose-invert max-w-none">
-                  <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-6">
+                  <p className="text-base text-muted-foreground leading-relaxed mb-6">
                     {t("about.content")}
                   </p>
-                  <p className="text-lg md:text-xl font-semibold text-foreground">
+                  <p className="text-base font-semibold text-foreground">
                     {t("about.closing")}
                   </p>
                 </div>

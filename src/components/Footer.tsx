@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="container mx-auto px-6 sm:px-12">
         <div className="flex flex-col md:flex-row justify-between items-center gap-4 md:gap-6">
           <div className="text-center md:text-start">
-            <div className="font-semibold mb-1 text-lg">{t("footer.company")}</div>
+            <div className="font-semibold mb-1 text-base">{t("footer.company")}</div>
             <div className="text-sm">{t("footer.address")}</div>
             <div className="text-sm">{t("footer.phone")}</div>
             <a

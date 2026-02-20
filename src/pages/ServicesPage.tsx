@@ -6,6 +6,8 @@ import ScrollReveal from "@/components/animations/ScrollReveal";
 import { useTranslation } from "react-i18next";
 import { useLocation } from "react-router";
 import Services from "@/components/Services";
+import { serviceContentConfig } from "@/shared/config/service-content";
+import { ServiceContentBlocksRenderer } from "@/shared/ui/ServiceContentRenderer";
 
 const ServicesPage = () => {
   const { t } = useTranslation();
@@ -65,194 +67,12 @@ const ServicesPage = () => {
   };
 
   const renderServiceContent = (serviceKey: string) => {
+    const config = serviceContentConfig[serviceKey];
+    if (!config) return null;
+
     const basePath = `servicePages.${serviceKey}`;
 
-    if (serviceKey === "security") {
-      return (
-        <div className="prose prose-lg dark:prose-invert max-w-none">
-          <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-6">
-            {t(`${basePath}.intro`)}
-          </p>
-          <ul className="list-disc list-inside mb-6 text-lg text-muted-foreground space-y-2">
-            {(t(`${basePath}.systems`, { returnObjects: true }) as string[]).map(
-              (system: string, idx: number) => (
-                <li key={idx}>{system}</li>
-              ),
-            )}
-          </ul>
-          <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-6">
-            {t(`${basePath}.description`)}
-          </p>
-          <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-6">
-            {t(`${basePath}.audit`)}
-          </p>
-          <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-4">
-            {t(`${basePath}.manufacturers`)}
-          </p>
-          <ul className="list-disc list-inside mb-6 text-lg text-muted-foreground space-y-2">
-            {(t(`${basePath}.manufacturersList`, { returnObjects: true }) as string[]).map(
-              (manufacturer: string, idx: number) => (
-                <li key={idx}>{manufacturer}</li>
-              ),
-            )}
-          </ul>
-          <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-6">
-            {t(`${basePath}.enterprise`)}
-          </p>
-          <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
-            {t(`${basePath}.closing`)}
-          </p>
-        </div>
-      );
-    }
-
-    if (serviceKey === "fire") {
-      return (
-        <div className="prose prose-lg dark:prose-invert max-w-none">
-          <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-6">
-            {t(`${basePath}.intro`)}
-          </p>
-          <ul className="list-disc list-inside mb-6 text-lg text-muted-foreground space-y-2">
-            {(t(`${basePath}.systems`, { returnObjects: true }) as string[]).map(
-              (system: string, idx: number) => (
-                <li key={idx}>{system}</li>
-              ),
-            )}
-          </ul>
-          <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-6">
-            {t(`${basePath}.description`)}
-          </p>
-          <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-6">
-            {t(`${basePath}.audit`)}
-          </p>
-          <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-4">
-            {t(`${basePath}.manufacturers`)}
-          </p>
-          <ul className="list-disc list-inside mb-6 text-lg text-muted-foreground space-y-2">
-            {(t(`${basePath}.manufacturersList`, { returnObjects: true }) as string[]).map(
-              (manufacturer: string, idx: number) => (
-                <li key={idx}>{manufacturer}</li>
-              ),
-            )}
-          </ul>
-          <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
-            {t(`${basePath}.closing`)}
-          </p>
-        </div>
-      );
-    }
-
-    if (serviceKey === "bms") {
-      return (
-        <div className="prose prose-lg dark:prose-invert max-w-none">
-          <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-6">
-            {t(`${basePath}.intro`)}
-          </p>
-          <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-4">
-            {t(`${basePath}.systems`)}
-          </p>
-          <ul className="list-disc list-inside mb-6 text-lg text-muted-foreground space-y-2">
-            {(t(`${basePath}.systemsList`, { returnObjects: true }) as string[]).map(
-              (system: string, idx: number) => (
-                <li key={idx}>{system}</li>
-              ),
-            )}
-          </ul>
-          <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-6">
-            {t(`${basePath}.benefits`)}
-          </p>
-          <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-6">
-            {t(`${basePath}.description`)}
-          </p>
-          <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-6">
-            {t(`${basePath}.audit`)}
-          </p>
-          <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-4">
-            {t(`${basePath}.manufacturers`)}
-          </p>
-          <ul className="list-disc list-inside mb-6 text-lg text-muted-foreground space-y-2">
-            {(t(`${basePath}.manufacturersList`, { returnObjects: true }) as string[]).map(
-              (manufacturer: string, idx: number) => (
-                <li key={idx}>{manufacturer}</li>
-              ),
-            )}
-          </ul>
-          <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
-            {t(`${basePath}.closing`)}
-          </p>
-        </div>
-      );
-    }
-
-    if (serviceKey === "telecom") {
-      return (
-        <div className="prose prose-lg dark:prose-invert max-w-none">
-          <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-6">
-            {t(`${basePath}.intro`)}
-          </p>
-          <ul className="list-disc list-inside mb-6 text-lg text-muted-foreground space-y-2">
-            {(t(`${basePath}.systems`, { returnObjects: true }) as string[]).map(
-              (system: string, idx: number) => (
-                <li key={idx}>{system}</li>
-              ),
-            )}
-          </ul>
-          <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-6">
-            {t(`${basePath}.description`)}
-          </p>
-          <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-6">
-            {t(`${basePath}.audit`)}
-          </p>
-          <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-4">
-            {t(`${basePath}.manufacturers`)}
-          </p>
-          <ul className="list-disc list-inside mb-6 text-lg text-muted-foreground space-y-2">
-            {(t(`${basePath}.manufacturersList`, { returnObjects: true }) as string[]).map(
-              (manufacturer: string, idx: number) => (
-                <li key={idx}>{manufacturer}</li>
-              ),
-            )}
-          </ul>
-          <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
-            {t(`${basePath}.closing`)}
-          </p>
-        </div>
-      );
-    }
-
-    if (serviceKey === "produkty") {
-      return (
-        <div className="prose prose-lg dark:prose-invert max-w-none">
-          <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-6">
-            {t(`${basePath}.intro`)}
-          </p>
-          <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-6">
-            {t(`${basePath}.description`)}
-          </p>
-          <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-4">
-            {t(`${basePath}.applications`)}
-          </p>
-          <ul className="list-disc list-inside mb-6 text-lg text-muted-foreground space-y-2">
-            {(t(`${basePath}.applicationsList`, { returnObjects: true }) as string[]).map(
-              (application: string, idx: number) => (
-                <li key={idx}>{application}</li>
-              ),
-            )}
-          </ul>
-          <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-6">
-            {t(`${basePath}.modules`)}
-          </p>
-          <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-6">
-            {t(`${basePath}.modulesExample`)}
-          </p>
-          <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
-            {t(`${basePath}.closing`)}
-          </p>
-        </div>
-      );
-    }
-
-    return null;
+    return <ServiceContentBlocksRenderer blocks={config.blocks} basePath={basePath} />;
   };
 
   return (
@@ -270,7 +90,7 @@ const ServicesPage = () => {
 
           <ScrollReveal direction="up" delay={0.2}>
             {expandedService !== null && (
-              <div className="max-w-4xl mx-auto mt-12">
+              <div className="max-w-4xl mx-auto mt-12 px-4">
                 <div className="p-6 rounded-lg bg-card border border-border shadow-sm">
                   <h3 className="text-2xl font-bold mb-6">
                     {t(`servicePages.${services[expandedService].key}.title`)}

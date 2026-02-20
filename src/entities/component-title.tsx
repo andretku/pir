@@ -14,7 +14,7 @@ export const ComponentTitle = ({
     <ScrollReveal direction="up">
       <div className={cn("max-w-3xl mb-6 md:mb-10", className)}>
         <h2 className="text-2xl md:text-3xl font-bold mb-4">{title}</h2>
-        {subtitle && <p className="text-lg md:text-xl text-muted-foreground">{subtitle}</p>}
+        {subtitle && <p className="text-base text-muted-foreground">{subtitle}</p>}
       </div>
     </ScrollReveal>
   );

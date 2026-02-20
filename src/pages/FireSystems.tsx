@@ -24,33 +24,33 @@ const FireSystems = () => {
             <ScrollReveal direction="up" delay={0.1}>
               <div className="max-w-4xl mx-auto mt-12">
                 <div className="prose prose-lg dark:prose-invert max-w-none">
-                  <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-6">
+                  <p className="text-base text-muted-foreground leading-relaxed mb-6">
                     {t("servicePages.fire.intro")}
                   </p>
-                  <ul className="list-disc list-inside mb-6 text-lg text-muted-foreground space-y-2">
+                  <ul className="list-disc list-inside mb-6 text-base text-muted-foreground space-y-2">
                     {t("servicePages.fire.systems", { returnObjects: true }).map(
                       (system: string, index: number) => (
                         <li key={index}>{system}</li>
                       ),
                     )}
                   </ul>
-                  <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-6">
+                  <p className="text-base text-muted-foreground leading-relaxed mb-6">
                     {t("servicePages.fire.description")}
                   </p>
-                  <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-6">
+                  <p className="text-base text-muted-foreground leading-relaxed mb-6">
                     {t("servicePages.fire.audit")}
                   </p>
-                  <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-4">
+                  <p className="text-base text-muted-foreground leading-relaxed mb-4">
                     {t("servicePages.fire.manufacturers")}
                   </p>
-                  <ul className="list-disc list-inside mb-6 text-lg text-muted-foreground space-y-2">
+                  <ul className="list-disc list-inside mb-6 text-base text-muted-foreground space-y-2">
                     {t("servicePages.fire.manufacturersList", { returnObjects: true }).map(
                       (manufacturer: string, index: number) => (
                         <li key={index}>{manufacturer}</li>
                       ),
                     )}
                   </ul>
-                  <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
+                  <p className="text-base text-muted-foreground leading-relaxed">
                     {t("servicePages.fire.closing")}
                   </p>
                 </div>

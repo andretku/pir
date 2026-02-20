@@ -14,7 +14,7 @@ const Welcome = () => {
           <ScrollReveal direction="up">
             <div className="space-y-6 text-center">
               <h1 className="text-2xl md:text-3xl font-bold pt-2 md:pt-0">{t("welcome.title")}</h1>
-              <div className="text-lg md:text-xl px-4 sm:px-10 text-muted-foreground max-w-3xl mx-auto leading-relaxed">
+              <div className="text-base px-4 sm:px-10 text-muted-foreground max-w-3xl mx-auto leading-relaxed">
                 {t("welcome.description")}
               </div>
               <div className="pt-4 text-right">

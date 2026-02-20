@@ -24,7 +24,7 @@ const TelecomSystems = () => {
             <ScrollReveal direction="up" delay={0.1}>
               <div className="max-w-4xl mx-auto mt-12">
                 <div className="prose prose-lg dark:prose-invert max-w-none">
-                  <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
+                  <p className="text-base text-muted-foreground leading-relaxed">
                     {t("servicePages.telecom.description")}
                   </p>
                 </div>

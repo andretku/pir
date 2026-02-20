@@ -90,15 +90,13 @@ const Services = ({
           <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-primary/30 to-accent/30" />
         )}
         <div className="absolute inset-0 bg-black/40 group-hover:bg-black/60 transition-colors duration-300 flex items-center justify-center">
-          <h3 className="text-white text-lg lg:text-base font-bold text-center px-4 z-10">
-            {service.title}
-          </h3>
+          <h3 className="text-white text-lg font-bold text-center px-4 z-10">{service.title}</h3>
         </div>
       </div>
     );
 
     const cardClassName = cn(
-      "group block relative overflow-hidden rounded-lg max-[449px]:h-[100px] aspect-[4/3] lg:max-w-[300px] lg:max-h-[200px] hover:scale-105 transition-transform duration-300 w-full",
+      "group block relative overflow-hidden rounded-lg max-[449px]:h-[100px] aspect-[4/3] lg:aspect-[1/1] sm:max-w-[250px] hover:scale-105 transition-transform duration-300 w-full",
       expandedService === index && "ring-2 ring-primary",
     );
 
@@ -129,7 +127,7 @@ const Services = ({
         <StaggerContainer
           staggerDelay={0.1}
           className={cn(
-            "grid grid-cols-1 min-[450px]:grid-cols-2 lg:flex lg:flex-nowrap gap-3 mt-12",
+            "grid grid-cols-1 min-[450px]:grid-cols-2 md:grid-cols-3 lg:flex lg:flex-nowrap gap-3 mt-12",
             !onServiceClick && "gap-6",
           )}
         >

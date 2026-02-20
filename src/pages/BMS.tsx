@@ -24,39 +24,39 @@ const BMS = () => {
             <ScrollReveal direction="up" delay={0.1}>
               <div className="max-w-4xl mx-auto mt-12">
                 <div className="prose prose-lg dark:prose-invert max-w-none">
-                  <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-6">
+                  <p className="text-base text-muted-foreground leading-relaxed mb-6">
                     {t("servicePages.bms.intro")}
                   </p>
-                  <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-4">
+                  <p className="text-base text-muted-foreground leading-relaxed mb-4">
                     {t("servicePages.bms.systems")}
                   </p>
-                  <ul className="list-disc list-inside mb-6 text-lg text-muted-foreground space-y-2">
+                  <ul className="list-disc list-inside mb-6 text-base text-muted-foreground space-y-2">
                     {t("servicePages.bms.systemsList", { returnObjects: true }).map(
                       (system: string, index: number) => (
                         <li key={index}>{system}</li>
                       ),
                     )}
                   </ul>
-                  <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-6">
+                  <p className="text-base text-muted-foreground leading-relaxed mb-6">
                     {t("servicePages.bms.benefits")}
                   </p>
-                  <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-6">
+                  <p className="text-base text-muted-foreground leading-relaxed mb-6">
                     {t("servicePages.bms.description")}
                   </p>
-                  <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-6">
+                  <p className="text-base text-muted-foreground leading-relaxed mb-6">
                     {t("servicePages.bms.audit")}
                   </p>
-                  <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-4">
+                  <p className="text-base text-muted-foreground leading-relaxed mb-4">
                     {t("servicePages.bms.manufacturers")}
                   </p>
-                  <ul className="list-disc list-inside mb-6 text-lg text-muted-foreground space-y-2">
+                  <ul className="list-disc list-inside mb-6 text-base text-muted-foreground space-y-2">
                     {t("servicePages.bms.manufacturersList", { returnObjects: true }).map(
                       (manufacturer: string, index: number) => (
                         <li key={index}>{manufacturer}</li>
                       ),
                     )}
                   </ul>
-                  <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
+                  <p className="text-base text-muted-foreground leading-relaxed">
                     {t("servicePages.bms.closing")}
                   </p>
                 </div>

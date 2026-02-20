@@ -35,6 +35,7 @@ const Header = () => {
     "/systemy-pozarowe",
     "/bms",
     "/systemy-teletechniczne",
+    "/produkty",
   ].includes(location.pathname);
 
   useEffect(() => {
@@ -152,7 +153,7 @@ const Header = () => {
               src="/images/logo.png"
               alt="Logo"
               onClick={handleLogoClick}
-              className="h-12 md:h-16 object-contain cursor-pointer"
+              className="h-14 md:h-16 object-contain cursor-pointer"
               fetchPriority="high"
               loading="eager"
             />
