@@ -19,10 +19,16 @@ const Footer = () => {
             </a>
           </div>
           <div className="text-center md:text-end flex flex-col gap-2">
-            <div className="text-sm">
-              <div>NIP: 5213815786</div>
-              <div>REGON: 369610824</div>
-              <div>KRS: 0000721286</div>
+            <div className="text-sm no-phone-detection">
+              <div>
+                <span data-phone-detection="false">NIP: 5213815786</span>
+              </div>
+              <div>
+                <span data-phone-detection="false">REGON: 369610824</span>
+              </div>
+              <div>
+                <span data-phone-detection="false">KRS: 0000721286</span>
+              </div>
             </div>
             <div>
               {t("footer.copyright").replace("{currentYear}", new Date().getFullYear().toString())}
